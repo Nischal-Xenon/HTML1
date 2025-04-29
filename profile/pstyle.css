@@ -1,0 +1,107 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+img{
+  height: 130px;
+  width: 130px;
+  align-self: center;
+  border: 10px solid #ecf0f3;
+  border-radius: 75px;
+}
+#d,#log,img,.fb,.twitter,.insta,.yt,.bu{
+  box-shadow: -3px -3px 7px #FFFFFF,
+               3px 3px 5px #CECED1;
+}
+#d{
+  border: 10px solid #ecf0f3;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top :100px;
+  background: #ecf0f3;
+}
+#arrow {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+#dot{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 84%;
+}
+.name ,.about{
+  text-align: center;
+}
+.about{
+  margin-top: -10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.social-icons a{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.social-icons i{
+  margin:30%;
+}
+.social-icons{
+  margin-left: 14%;
+  margin-top: 20px;
+}
+.bu{
+  border: 2px solid #ecf0f3;
+  background: #ecf0f3;
+  height: 50px;
+  width: 140px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 19px;
+}
+#msg {
+  margin-right: 11px;
+}
+.bu:hover{
+  background: #ACF9F9;
+}
+.social-share .row{
+  color: #31344b;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+}
+#liked ,#comm{
+  display: none;
+}
+#like ,#liked ,#com ,#comm{
+  position: absolute;
+}
+.count{
+  margin-left: 7%;
+}
+#log {
+  display: none;
+  width: 8vw;
+  height: 2vh;
+  margin-left: -5vw;
+  margin-top: 1vh;
+  background: #ecf0f3;
+  border: none;
+  border-radius: 0.5vw;
+}
+#log a{
+  text-decoration: none;
+  color: black;
+}
